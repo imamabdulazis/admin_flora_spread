@@ -1,0 +1,18 @@
+.app{
+    display: grid;
+    background-color: #eff2f5;
+    scroll-behavior: smooth;
+}
+
+.app__body{
+    display: flex;
+}
+
+.app__body>iframe{
+    height: 100vh;
+}
+
+.app__body__main{
+    margin: 20px;
+    width: 75vw;
+}
